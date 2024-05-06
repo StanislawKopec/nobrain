@@ -1,0 +1,27 @@
+.startNode{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+    width: 200px;
+    background-color:  #226896a2;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 500;
+    border: 1px solid rgb(158, 134, 0);
+
+    &:hover{
+        background-color:  #1373b4a2;
+    }
+}
+.displayNone{
+    display: none;
+}

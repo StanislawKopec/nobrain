@@ -1,0 +1,99 @@
+.container-main-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(140, 140, 140);
+  .container-content {
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.927);
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    .login-register {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px;
+      h2 {
+        margin: 0 auto 10px;
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        letter-spacing: 2px;
+      }
+      .register-btn {
+        width: 100px;
+        height: 25px;
+        border-radius: 5px;
+        background-color: rgb(173, 172, 172);
+        border: 1px solid rgb(0, 0, 0);
+        &:hover{
+          background-color: rgb(161, 161, 161);
+          cursor: pointer;
+        }
+      }
+    }
+    .form-login {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      border-top:1px solid rgba(0, 0, 0, 0.385);
+      border-bottom:1px solid rgba(0, 0, 0, 0.385);
+    }
+    .submit-btn {
+      position: absolute;
+      bottom: 100px;
+      right: 40px;
+      width: 70px;
+      height: 25px;
+      border-radius: 5px;
+      background-color:  #4896ef;
+      border: 1px solid rgb(0, 0, 0);
+      &:hover{
+        background-color:  rgb(72, 146, 232);
+        cursor: pointer;
+      }
+    }
+    .back-btn {
+      position: absolute;
+      bottom: 100px;
+      left: 40px;
+      width: 70px;
+      height: 25px;
+      border-radius: 5px;
+      background-color: rgb(173, 172, 172);
+      border: 1px solid rgb(0, 0, 0);
+      &:hover{
+        background-color: rgb(161, 161, 161);
+        cursor: pointer;
+      }
+    }
+  }
+}
+label {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 7px 0 2px;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin: 3px 0 5px;
+}
+input {
+  border-radius: 5px;
+  background-color: white;
+  height: 30px;
+  padding-left: 10px;
+}
+.input-error {
+  border-color: red;
+}

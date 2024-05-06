@@ -1,0 +1,72 @@
+.noteContainer{
+    height: 500px;
+    width: 400px;
+    background-color:  rgba(255, 255, 255, 0.829);
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 1000;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px;
+    resize: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    textarea{
+        height: 100%;
+        width: 380px;
+        background-color:  rgba(255, 255, 255, 0.829);
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        border: none;
+        outline: none;
+        resize: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .saveNotesButton{
+        height: 50px;
+        width: 200px;
+        position: relative;
+        background-color:bisque;
+        margin: 10px auto;
+        font-weight: 500;
+        font-size: 22px;
+        border-radius: 5px;
+    }
+}
+
+.currentNodeName{
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    padding: 10px;
+    height: auto;
+    position: fixed;
+    top: 100px;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgb(205, 197, 197);
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgb(158, 134, 0);
+}
+.notesList{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
